@@ -1,0 +1,42 @@
+body{
+				display:flex;
+				flex-direction: column;
+				background: rgb( 204, 229, 225)
+}
+
+main{
+				display: flex;
+				flex-direction: row;
+				flex: auto;
+				margin-top: 50px;
+}
+
+article{
+				flex: 2;
+				overflow-y: auto;
+				margin-right: 20px;
+				flex-direction: row;
+				background: #b7e271;
+}
+
+aside{
+				flex: 1;
+				overflow-y: auto;
+				flex-direction: row;
+}
+
+header{
+				background: #57009b;
+}
+ 
+footer{
+ 				background: #ffbd15;
+ 				text-align: center;
+ 				color: #ff001f;
+ }
+ 
+ form{
+ 				color: #ff001f;
+ }
+ 
+ 
